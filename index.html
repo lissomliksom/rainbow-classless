@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rainbow-classless</title>
+  <link rel="stylesheet" href="rainbow-classless.css">
+</head>
+<body>
+  <header>
+    <h1>rainbow-classless</h1>
+    <p>
+      A small CSS-file to make your generic HTML-pages prettier. No frameworks, no classes, just semantic HTML5.
+    </p>
+    <ul>
+      <li><a href="#start">Getting started</a></li>
+      <li><a href="#reference">HTML Reference</a></li>
+      <li><a href="#elements">Elements</a></li>
+      <ul>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#image">Image</a></li>
+        <li><a href="#table">Table</a></li>
+        <li><a href="#quote">Quote</a></li>
+        <li><a href="#code">Code</a></li>
+        <li><a href="#form">Form</a></li>
+      </ul>
+      
+    </ul>
+    <hr>
+  </header>
+  <main>
+    <section id="start">
+      <h2>Getting started</h2>
+      <p>
+        To get started with rainbow-classless simply copy & paste the code below between your <code>&lt;head&gt;...&lt;/head&gt;</code>-tags on your website.
+      </p>
+      <p>
+        <code>&lt;link rel="stylesheet" href="https://future.link/to-a/cdn/rainbow-classless&gt;</code>
+      </p>
+      <p>
+        Everything you need is in this one CSS-file. 
+        rainbow-classless is written with CSS variables, so you can easily change colors, sizes, border-radius and much more with a few modifications in your CSS-file.
+      </p>
+    </section>
+
+    <section id="reference">
+      <h2>HTML Reference</h2>
+      <details>
+        <summary>Click for complete reference</summary>
+        <p>
+          The following styles have its own styles in rainbow-classless:
+          <ul>
+            <li><code>&lt;a&gt;</code><small> — Text links. States for :active, :focus, :hover and :visited</small></li>
+            <li><code>&lt;abbr&gt;</code><small>— Abbreviations, i.e. <i>CSS - Cascading StyleSheets</i></small></li>
+            <li><code>&lt;blockquote&gt;</code><small>— Quotes</small></li>
+            <li><code>&lt;button&gt;</code><small>— :focus</small></li>
+            <li><code>&lt;code&gt;</code><small>— Code</small></li>
+            <li><code>&lt;details&gt; and &lt;summary&gt;</code><small>— Dropdown menu for details.</small></li>
+            <li><code>&lt;figure&gt;</code><small>— Block-sized container for images</small></li>
+            <li><code>&lt;figcaption&gt;</code><small>— Captions for image-container</small></li>
+            <li><code>&lt;form&gt;</code></li>
+            <ul>
+              <li><code>&lt;fieldset&gt;</code><small>— Container for form elements.</small></li>
+              <li><code>&lt;input&gt;</code><small>—  Several of these include disabled, :focus and :hover states</small></li>
+                <ul>
+                  <li><code>&lt;type['button']&gt;</code></li>
+                  <li><code>&lt;type['checkbox']&gt;</code><small>—  Styled as inline-block</small></li>
+                  <li><code>&lt;type['radio']&gt;</code><small>—  Styled as inline-block</small></li>
+                  <li><code>&lt;type['submit']&gt;</code></li>
+                </ul>
+              <li><code>&lt;select&gt;</code><small>— Dropdown menu with options. Includes :focus state.</small></li>
+              <li><code>&lt;textarea&gt;</code><small>— Textarea. Includes :focus state.</small></li>
+            </ul>
+            <li><code>&lt;h1&gt; - &lt;h6&gt;</code><small>— Headings</small></li>
+            <li><code>&lt;hr&gt;</code><small>— Horizontal ruler</small></li>
+            <li><code>&lt;img&gt;</code><small>— Image</small></li>
+            <li><code>&lt;mark&gt;</code><small>— Highlighted text</small></li>
+            <li><code>&lt;p&gt;</code><small>— Paragraph</small></li>
+            <li><code>&lt;pre&gt;</code><small>— Preformatted text</small></li>
+            <li><code>&lt;samp&gt;</code><small>— Sample output</small></li>
+            <li><code>&lt;small&gt;</code><small>— Small text</small></li>
+            <li><code>&lt;table&gt;</code><small>— Alternately colored, includes :hover states</small></li>
+          </ul>
+        </p>
+      </details>
+    </section>
+
+    <section id="elements">
+      <h2>Elements</h2>
+
+      <article id="typography">
+        <h3>Typography</h3>
+        <p>
+          A paragraph with text, some <strong>strong text</strong>, some <em>emphasized text</em> and <a href="#">a link</a>. 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dictum hendrerit velit, quis ullamcorper sem congue ac. 
+          Quisque id magna rhoncus, sodales massa vel, vestibulum elit. Duis ornare accumsan egestas. Proin maximus lacus interdum leo molestie convallis.
+        </p>
+        <p>
+          This paragraph has some <mark>highlighted text</mark>, and and an abbreviation: <abbr title="HyperText Markup Language">HTML</abbr>.
+          Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut iaculis risus eu felis feugiat, eu mollis neque elementum. 
+          Donec interdum, nisl id dignissim iaculis, felis dui aliquet dui, non fermentum velit lectus ac quam.
+        </p>
+        <p>All headlines have heavier font-weight and darker color.</p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+      </article>
+
+      <article id="image">
+        <h3>Image</h3>
+
+          No specific styles, except limiting max-width to 100% of the container. Images contained within a <code>&lt;figure&gt;</code> is displayed as block and can have a small <code>&lt;figcaption&gt;</code>.
+
+          <figure>
+            <img src="https://i.picsum.photos/id/1018/960/576.jpg" alt="Sample image">
+            <figcaption>A small figcaption</figcaption>
+          </figure>
+      </article>
+
+      <article id="table">
+        <h3>Table</h3>
+        <p>
+          Tables have hover states and alternating row colors.
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>abc</th>
+              <th>acb</th>
+              <th>acb</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>abc</td>
+              <td>abc</td>
+              <td>abc</td>
+            </tr>
+            <tr>
+              <td>abc</td>
+              <td>abc</td>
+              <td>abc</td>
+            </tr>
+            <tr>
+              <td>abc</td>
+              <td>abc</td>
+              <td>abc</td>
+            </tr>
+            <tr>
+              <td>abc</td>
+              <td>abc</td>
+              <td>abc</td>
+            </tr>
+            <tr>
+              <td>abc</td>
+              <td>abc</td>
+              <td>abc</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article id="quote">
+        <h3>Quote</h3>
+        <p>Display quotes with a little margin on top, bottom and to the left.</p>
+        
+        <blockquote>
+          True freedom is impossible without a mind made free by discipline.<br>
+          <small>- Mortimer J. Adler</small>
+        </blockquote>
+      </article>
+      
+      <article id="code">
+        <h3>Code</h3>
+        <p>
+          Use <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> together to display code. Use <code>&lt;mark&gt;</code> to highlight important parts.
+        </p>
+        <pre>
+<code>rolls = 1000
+results = <mark>int()</mark>
+dice = [4, 6, 8, 10, 12, 20]
+
+for i in range(rolls):
+  for die in range(len(dice)):
+    roll = random.randint(1, dice[die])
+    while roll == 1:
+        roll = roll + random.randint(1, dice[die])
+    results += roll
+
+print(results / rolls)
+</code>          
+        </pre>
+      </article>
+
+      <article id="form">
+        <h3>Form</h3>
+        <p>Different types of input and buttons have different :focus and :hover states. Forms can be wrapped in a <code>&lt;fieldset&gt;</code> with a narrow, rounded border.</p>
+        <form>
+          <label>Text</label>
+          <input type="text" value="Input type text">
+          <label>Email</label>
+          <input type="email" value="Input type email">
+          <label>Password</label>
+          <input type="password" value="Input type password">
+
+          <textarea></textarea>
+          <select>
+            <option>abc</option>
+            <option>def</option>
+            <option>ghi</option>
+          </select>
+
+          <input type="submit" value="Input type submit">
+          <input type="button" value="Input type button">
+          <button>Button</button>
+
+          <p>
+            <label>
+              <input type="checkbox">
+              Standard checkbox
+            </label>
+          </p>
+
+          <label>
+            <input type="radio" name="generic" value="yes">
+            Standard radio
+          </label>
+          <label>
+            <input type="radio" name="generic" value="no">
+            Standard radio
+          </label>
+        </form>
+
+        <h4>Disabled input</h4>
+        <p>
+          All above form elements can be disabled if needed.
+        </p>
+        <label>Text</label>
+        <input type="text" value="Input type text" disabled>
+        <button disabled>Button</button>
+
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <small>
+      Made by Simen Kristoffersen: <a href="https://www.github.com/lissomliksom">github.com/lissomliksom</a><br>
+      Greyscale color palette generated with <a href="https://www.github.com/lissomliksom/greyp">greyp</a>.
+    </small>
+  </footer>
+
+</body>
+</html>
