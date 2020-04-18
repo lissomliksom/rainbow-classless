@@ -2,7 +2,7 @@
 
 One small CSS-file to make your HTML look nice.
 
-Demo: [lissomliksom.github.io/rainbow-classless]https://lissomliksom.github.io/rainbow-classless
+Demo: [lissomliksom.github.io/rainbow-classless](https://lissomliksom.github.io/rainbow-classless)
 
 ## Goals
 
