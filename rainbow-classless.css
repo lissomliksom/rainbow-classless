@@ -7,23 +7,23 @@
   --color-background-body: #fff;
   --color-background-table: #fff;
 
-  --color-button: #0e121a;
-  --color-button-hover: #191e29;
+  --color-button: #061015;
+  --color-button-hover: #101a1f;
   --color-button-focus: #000000;
   
-  --color-dark: #0e121a;
+  --color-dark: #061015;
   --color-highlight: #fffccc;
-  --color-grey: #9AA5B1;
-  --color-grey-lighter: #d1d7e3;
-  --color-light: #eaedf3;
-  --color-light-lighter: #f0f2f7;
+  --color-grey: #5d686e;
+  --color-grey-lighter: #738087;
+  --color-light: #e3f2fa;
+  --color-light-lighter: #ecf7fd;
 
   --color-link: #2186EB;
   --color-link-active: currentColor;
   --color-link-focus-hover: #47A3F3;
   --color-link-visited: #AD4BB8;
 
-  --color-text: #384257;
+  --color-text: #374248;
 
   --container-width: 768px;
   --input-width: 33%;
