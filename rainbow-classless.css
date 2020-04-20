@@ -223,7 +223,7 @@ textarea {
   padding: 1em;
   margin: .125em 0 1em;
   border: 1px solid var(--color-grey-lighter);
-  box-shadow: var(--box-shadow) var(--color-light-lighter);
+  box-shadow: var(--box-shadow) rgb(0,0,0,0.06);
   opacity: 0.85;
   color: var(--color-grey);
   transition: opacity var(--transition-speed);
