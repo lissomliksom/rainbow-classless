@@ -1,37 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
 :root {
---border-radius: 5px;
---box-shadow: 0 2px 3px;
+  --border-radius: 5px;
+  --box-shadow: 0 2px 3px;
 
---color-background-body: #fff;
---color-background-table: #fff;
+  --color-background-body: #fff;
+  --color-background-table: #fff;
 
---color-button: #061015;
---color-button-hover: #101a1f;
---color-button-focus: #000000;
+  --color-button: #061015;
+  --color-button-hover: #101a1f;
+  --color-button-focus: #000000;
 
---color-dark: #061015;
---color-highlight: #fffccc;
---color-grey: #5d686e;
---color-grey-lighter: #738087;
---color-light: #e3f2fa;
---color-light-lighter: #ecf7fd;
+  --color-dark: #061015;
+  --color-highlight: #fffccc;
+  --color-grey: #5d686e;
+  --color-grey-lighter: #738087;
+  --color-light: #e3f2fa;
+  --color-light-lighter: #ecf7fd;
 
---color-link: #2186EB;
---color-link-active: currentColor;
---color-link-focus-hover: #47A3F3;
---color-link-visited: #AD4BB8;
+  --color-link: #2186EB;
+  --color-link-active: currentColor;
+  --color-link-focus-hover: #47A3F3;
+  --color-link-visited: #AD4BB8;
 
---color-text: #374248;
+  --color-text: #374248;
 
---container-width: 768px;
---input-width: 33%;
+  --container-width: 768px;
+  --input-width: 33%;
 
---line-height-text: 1.5;
---line-height-headlines: 1.125;
+  --line-height-text: 1.5;
+  --line-height-headlines: 1.125;
 
---transition-speed: 0.2s;
+  --transition-speed: 0.2s;
 }
 
 /* General styling */
@@ -311,6 +311,40 @@ td, th {
 
 th {
   border-bottom: 1px solid var(--color-grey);
+}
+
+
+/* Navbar */
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5em;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin: 0 0.5rem;
+  position: relative;
+  text-align: left;
+}
+
+nav > ul > li > a,
+nav > ul > li > a:visited {
+  color: var(--color-dark);
+  text-decoration: none;
+  transition: border 0.2s, color 0.2s;
+  padding-bottom: 0.5em;
+}
+
+nav > ul > li > a:hover {   
+  color: var(--color-grey);
+  border-bottom: 5px solid var(--color-dark);
 }
 
 

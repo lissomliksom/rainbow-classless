@@ -7,7 +7,25 @@
   <link rel="stylesheet" href="rainbow-classless.css">
 </head>
 <body>
-  <header>
+  <header id="top">
+    <nav>
+      <strong>rainbow-classless</strong>
+      <ul>
+        <li>
+          <a href="#start">Start</a>
+        </li>
+        <li>
+          <a href="#reference">Reference</a>
+        </li>
+        <li>
+          <a href="#elements">Elements</a>
+        </li>
+        <li>
+          <a href="https://www.github.com/lissomliksom/rainbow-classless">Github</a>
+        </li>
+      </ul>
+    </nav>
+
     <h1>rainbow-classless</h1>
     <p>
       A small CSS-file to make your generic HTML-pages prettier. No frameworks, no classes, just semantic HTML5.
@@ -23,6 +41,7 @@
           <li><a href="#quote">Quote</a></li>
           <li><a href="#code">Code</a></li>
           <li><a href="#form">Form</a></li>
+          <li><a href="#nav">Navbar</a></li>
         </ul>
       </li>
     </ul>
@@ -79,6 +98,11 @@
             <li><code>&lt;img&gt;</code><small>— Image</small></li>
             <li><code>&lt;kbd&gt;</code><small>— Keyboard input <kbd>Ctrl + C</kbd></small></li>
             <li><code>&lt;mark&gt;</code><small>— Highlighted text</small></li>
+            <li><code>&lt;nav&gt;</code><small>— Navbar</small>
+              <ul>
+                <li>Create a complete navbar with <code>nav > ul > li</code></li>
+              </ul>
+            </li>
             <li><code>&lt;p&gt;</code><small>— Paragraph</small></li>
             <li><code>&lt;pre&gt;</code><small>— Preformatted text</small></li>
             <li><code>&lt;samp&gt;</code><small>— Sample output</small></li>
@@ -245,6 +269,13 @@ print(results / rolls)
         <label>Text</label>
         <input type="text" value="Input type text" disabled>
         <button disabled>Button</button>
+      </article>
+
+      <article id="nav">
+        <h3>Navbar</h3>
+        <p>No classes, just <code>nav > ul > li > a</code>.</p>
+        <p>Elements are aligned with <code>justify-content: space-between</code></p>
+        <p>For an example, see the top navigation of this site. <a href="#top">Go to top</a></p>
       </article>
 
     </section>
