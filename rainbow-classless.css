@@ -1,37 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
 :root {
-  --border-radius: 5px;
-  --box-shadow: 0 2px 3px;
+--border-radius: 5px;
+--box-shadow: 0 2px 3px;
 
-  --color-background-body: #fff;
-  --color-background-table: #fff;
+--color-background-body: #fff;
+--color-background-table: #fff;
 
-  --color-button: #061015;
-  --color-button-hover: #101a1f;
-  --color-button-focus: #000000;
-  
-  --color-dark: #061015;
-  --color-highlight: #fffccc;
-  --color-grey: #5d686e;
-  --color-grey-lighter: #738087;
-  --color-light: #e3f2fa;
-  --color-light-lighter: #ecf7fd;
+--color-button: #061015;
+--color-button-hover: #101a1f;
+--color-button-focus: #000000;
 
-  --color-link: #2186EB;
-  --color-link-active: currentColor;
-  --color-link-focus-hover: #47A3F3;
-  --color-link-visited: #AD4BB8;
+--color-dark: #061015;
+--color-highlight: #fffccc;
+--color-grey: #5d686e;
+--color-grey-lighter: #738087;
+--color-light: #e3f2fa;
+--color-light-lighter: #ecf7fd;
 
-  --color-text: #374248;
+--color-link: #2186EB;
+--color-link-active: currentColor;
+--color-link-focus-hover: #47A3F3;
+--color-link-visited: #AD4BB8;
 
-  --container-width: 768px;
-  --input-width: 33%;
+--color-text: #374248;
 
-  --line-height-text: 1.5;
-  --line-height-headlines: 1.125;
+--container-width: 768px;
+--input-width: 33%;
 
-  --transition-speed: 0.2s;
+--line-height-text: 1.5;
+--line-height-headlines: 1.125;
+
+--transition-speed: 0.2s;
 }
 
 /* General styling */
