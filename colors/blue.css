@@ -1,0 +1,13 @@
+:root {
+    --color-blue: hsl(255,96%,26.3%);    
+    --color-blue-hover: hsl(255,96%,36.3%);
+    --color-blue-focus: hsl(255,96%,16.3%);
+}
+
+.bg-blue {
+    background-color: var(--color-blue) !important;
+}
+
+.border-blue {
+    border: 1px solid var(--color-blue);
+}

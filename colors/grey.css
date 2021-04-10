@@ -1,0 +1,32 @@
+:root {
+    --color-grey-1: #101a1f;  
+    --color-grey-2: #232e33;  
+    --color-grey-3: #374248;  
+    --color-grey-4: #5d686e;  
+    --color-grey-5: #d5e5ed;  
+    --color-grey-6: #ecf7fd;    
+}
+
+.bg-grey-1 {
+    background-color: var(--color-grey-1);
+}
+
+.bg-grey-2 {
+    background-color: var(--color-grey-2);
+}
+
+.bg-grey-3 {
+    background-color: var(--color-grey-3);
+}
+
+.bg-grey-4 {
+    background-color: var(--color-grey-4);
+}
+
+.bg-grey-5 {
+    background-color: var(--color-grey-5);
+}
+
+.bg-grey-6 {
+    background-color: var(--color-grey-6);
+}

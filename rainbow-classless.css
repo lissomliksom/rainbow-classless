@@ -18,12 +18,13 @@
   --color-light: #e3f2fa;
   --color-light-lighter: #ecf7fd;
 
-  --color-link: #2186EB;
+  --color-link: hsl(255,96%,46.3%);
   --color-link-active: currentColor;
-  --color-link-focus-hover: #47A3F3;
-  --color-link-visited: #AD4BB8;
+  --color-link-focus-hover: hsl(255,96%,66.3%);
+  --color-link-visited: hsl(255,96%,16.3%);
+  --color-link-border: hsl(255,96%,26.3%);
 
-  --color-text: #374248;
+  --color-text: #232e33;
 
   --container-width: 768px;
   --input-width: 33%;
@@ -54,9 +55,11 @@ body {
 /* Typography */
 
 a {
+  border-bottom: 2px solid var(--color-link-border);
   color: var(--color-link);
   cursor: pointer;
-  text-decoration: underline;
+  padding-bottom: 2px;
+  text-decoration: none;
   transition: color var(--transition-speed);
 }
 a:visited {

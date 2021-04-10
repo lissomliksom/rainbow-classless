@@ -1,0 +1,17 @@
+/*
+Upcoming functionality:
+.shadow-sm
+.shadow-lg
+:hover-states
+*/
+
+.shadow {
+    box-shadow:
+        0 0.7px 0.7px -10px rgba(0, 0, 0, 0.006),
+        0 1.7px 1.7px -10px rgba(0, 0, 0, 0.008),
+        0 3.3px 3.3px -10px rgba(0, 0, 0, 0.01),
+        0 5.8px 5.8px -10px rgba(0, 0, 0, 0.012),
+        0 10.9px 10.9px -10px rgba(0, 0, 0, 0.014),
+        0 26px 26px -10px rgba(0, 0, 0, 0.026)
+    ;
+}
